@@ -1,0 +1,27 @@
+
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--primaryColor);
+}
+
+h2{
+    font-size: 40px;
+    font-weight:600;
+    color: var(--primaryColor);
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.left-section{
+    padding-top: 150px;
+}
+
+@media only screen and (max-width: 991px) {
+    .left-section{
+        padding-top: 150px;
+    }
+}

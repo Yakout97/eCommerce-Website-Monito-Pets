@@ -1,0 +1,95 @@
+/* nav{
+  font-family: Light;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 80px;
+} */
+
+ul{
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 0px !important;
+}
+
+li{
+  margin-right: 20px;
+  list-style: none;
+}
+
+a{
+  color: black !important;
+  text-decoration: none !important;
+}
+
+img{
+  width: 115px;
+}
+
+.input-box{
+  display: block;
+  position: relative;
+  width: auto;
+}
+
+.input-box i {
+  position: absolute;
+  left: 13px;
+  top:15px;
+  color:#667479;
+
+}
+
+.form-control{
+  height: 44px;
+  width: 235px;
+  margin-right: 20px;
+  background-color:#ffffff;
+  border-radius: 46px;
+  border: none;
+  text-indent: 32px;
+}
+
+.form-control:focus{
+  background-color: #eeeeee69;
+  box-shadow: none;
+  border-color: #eee;
+}
+
+.CountryDropdown{
+  display: block;
+  align-items: center;
+  margin-left: 18px;
+}
+
+.CountryDropdown img{
+  width: 20px;
+  margin-right: 3px;
+}
+
+.arrow{
+  width: 7px !important;
+  margin-left: 2px;
+}
+
+.CountryDropdown p{
+  margin-bottom: 0px;
+}
+
+#navlink{
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  #navbarScroll{
+    background-color: #f7dba7a8;
+      border-radius: 20px;
+      height: 250px;
+  }
+
+}
+
+/* hn8yerha b3deen dy kant 3shan button  */
+@media only screen and (min-width: 991px) and (max-width: 1400px) {
+  
+}

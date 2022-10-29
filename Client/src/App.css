@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Light";   /*Can be any text*/
+    src: local("Gilroy-Light.otf"),
+      url("./fonts/Gilroy-Light.otf") format("truetype");
+}
+@font-face {
+    font-family: "ExtraBold";   /*Can be any text*/
+    src: local("Gilroy-ExtraBold.otf"),
+      url("./fonts/Gilroy-ExtraBold.otf") format("truetype");
+}
+
+:root {
+    --primaryColor: #003459;
+    --secondaryColor: #F7DBa7;
+}
